@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+         <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+         </div>
+         <div class="status-bar__column">
+            <span>18:43</span>
+         </div>
+         <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt"></i>
+         </div>
+    </div>
+    <!-- //status-bar -->
+      <header class="screen-header">
+            <h1 class="screen-header__title">Friends</h1>
+            <div class="screen-header__icons">               
+                 <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                 <span><i class="fa-solid fa-music fa-lg"></i></span>
+                 <span><i class="fa-solid fa-gear fa-lg"></i></span>
+            </div>
+      </header>
+      <!-- //header -->
+      
+      <a id="friends-display-link">
+         <i class="fa-solid fa-circle-info"></i>Friends' Names Display
+         <i class="fa-sharp fa-solid fa-chevron-right fa-xs"></i>
+      </a>
+      <!-- //friends-display-link -->
+
+      <main class="friends-screen">
+            <div class="user-component">
+                     <div class="user-component__column">
+                        <img src="screenshots/sh.png" class="user-component_avatar user-component_avatar--xl"/>
+
+                        <div class="user-component__text">
+                           <h4 class="user-component__title">Nicolas</h4>
+                           <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+
+                        </div>
+                     </div>
+                     <div class="user-component__column"></div>
+            </div>
+            <!-- //user-component -->
+            <div class="friends-screen__channel">
+                <div class="friends-screen__channel-header">
+                     <span>Channel</span>
+                     <i class="fa-sharp fa-solid fa-chevron-up fa-xs"></i>
+                 </div>
+                 <!-- //friends-screen__channel-header -->
+                  <div class="user-component">
+                     <div class="user-component__column">
+                           <img src="screenshots/sh.png" class="user-component_avatar user-component_avatar--sm"/>
+
+                           <div class="user-component__text">
+                              <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                              
+
+                           </div>
+                     </div>
+                     <div class="user-component__column">
+                       <div>
+                           <span>2</span>
+                           <i class="fa-sharp fa-solid fa-chevron-right fa-xs"></i>
+                       </div>
+                     </div>
+                 </div>
+            <!-- //user-component -->
+                  
+                
+            </div>
+      </main>
+
+     
+       <nav class="nav">
+         <ul class="nav__list">
+            <li class="nav__btn">
+               <a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
+               <a class="nav__link" href="chats.html">
+               <span class="nav_notification badge">1</span><i class="fa-regular fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn">
+               <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
+            <li class="nav__btn">
+               <a class="nav__link" href="more.html">
+               <span class="nav_notification2">2</span><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+         </ul>
+       </nav>
+
+       <div id="splash-screen">
+         <i class="fa-solid fa-comment"></i>
+       </div>
+
+       <div id="no-mobile">
+          <span>Your screen is super big</span>
+       </div>
+    <script src="https://kit.fontawesome.com/e91504ddff.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
