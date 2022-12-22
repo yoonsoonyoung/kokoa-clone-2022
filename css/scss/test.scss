@@ -1,0 +1,13 @@
+.main {
+    width: 100%;
+
+    .content {
+        display: block;
+    }
+
+    img {
+        & > span {
+            display:none;
+        }
+    }
+}
